@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+/***
+ * Vars
+ *
+ */
+
+:root {
+  --primary-color: #33ff33;
+  --secondary-color: #328F33;
+  --primary-font-family: 'VT323', monospace;
+  --black: #222;
+  --dark-gray: #444;
+  --medium-gray: #777;
+}
+
+
+/***
+ * Base
+ *
+ */
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  font-family: var(--primary-font-family);
+}
+
+body {
+  background: #222;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 64rem;
+}
